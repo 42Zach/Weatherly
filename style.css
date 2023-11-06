@@ -1,0 +1,113 @@
+* {
+    text-decoration: none;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --main-font-color: rgb(50, 50, 50);
+}
+
+body {
+    background-color: rgb(45, 45, 45);
+}
+
+.card {
+    width: 90%;
+    max-width: 470px;
+    background-image: url('WADay.jpg');
+    background-size: cover;
+    color: white;
+    margin: 100px auto 0;
+    border-radius: 20px;
+    padding: 40px 35px;
+    text-align: center;
+    height: 800px;
+    font-family: Arial;
+}
+
+.search input {
+    background: rgb(226, 226, 226);
+    border: 0;
+    outline: 0;
+    padding: 10px 25px;
+    height: 60px;
+    border-radius: 30px;
+    flex: 1;
+    margin-right: 16px;
+    font-size: 18px;
+}
+
+.search button {
+    border: 0;
+    outline: 0;
+    background: rgb(226, 226, 226);
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+}
+
+.search button img {
+    width: 16px;
+}
+
+.search button:hover {
+    background: rgb(168, 168, 168);
+    transition: 0.35s;
+}
+
+.temp {
+    margin-top: 70px;
+    font-size: 130px;
+    color: var(--main-font-color);
+}
+
+.city {
+    margin-top: 20px;
+    font-weight: 750;
+    font-size: 60px;
+    color: var(--main-font-color);
+}
+
+.weatherType {
+    margin-top: 20px;
+    font-weight: 750;
+    font-size: 37px;
+    color: var(--main-font-color);
+    text-transform: capitalize;
+}
+
+.wind, .humidity {
+    font-weight: 750;
+    font-size: 34px;
+    color: var(--main-font-color);
+}
+
+.desired {
+    /* background-color: rgb(226, 226, 226);
+    border-radius: 30px; */
+    color: rgb(31, 31, 31);
+    font-family: arial;
+}
+
+.details {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.detM1, .detM2 {
+    display: none;
+}
+
+#humidImg {
+    height: 50px;
+    margin-top: 20px;
+}
+
+#windImg {
+    height: 55px;
+    margin-top: 20px;
+}
